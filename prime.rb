@@ -1,7 +1,6 @@
 require 'pry'
 def prime?(int)
   range = (2...int).to_a
-  #binding.pry
 
   if int < 2
     return false
@@ -10,6 +9,7 @@ def prime?(int)
     return true
   end
   range.each do |num|
+    binding.pry
     if int % num != 0
       return true
     end
