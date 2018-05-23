@@ -1,5 +1,5 @@
 def prime?(int)
-  range = (2...int).to_a
+  range = (2..int).to_a
   if int < 2
     return false
   end
