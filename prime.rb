@@ -1,7 +1,7 @@
 
 def prime?(int)
-
-  range = (2..(int/2)).to_a
+  half = int / 2
+  range = (2..half).to_a
   if int < 2
     return false
   end
