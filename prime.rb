@@ -1,7 +1,7 @@
 require 'pry'
 
 def prime?(int)
-  range = [1,2,3,4,5,6,7,8,9]
+  range = [2,3,4,5,6,7,8,9]
   if range.include?(int)
     range.delete(int)
   end
