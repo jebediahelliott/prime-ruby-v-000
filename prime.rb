@@ -1,7 +1,8 @@
 require 'pry'
 
 def prime?(int)
-  range = (2.."#{sqrt(int)}").to_a
+  root = sqrt(int)
+  range = (2..root).to_a
   if range.include?(int)
     range.delete(int)
   elsif int < 2
