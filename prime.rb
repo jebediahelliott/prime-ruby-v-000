@@ -1,4 +1,4 @@
-require 'pry'
+require 'math'
 
 def prime?(int)
   root = sqrt(int)
