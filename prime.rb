@@ -1,6 +1,8 @@
 require 'pry'
 def prime?(int)
   range = (2..int).to_a
+  binding.pry
+
   if int < 2
     return false
   end
@@ -13,6 +15,5 @@ def prime?(int)
     end
   end
   return false
-  binding.pry
   x
 end
