@@ -5,7 +5,8 @@ def prime?(int)
   range.all? do |num|
     if int % num != 0 && num != int
       return true
-      
+    end
+  end
       
       
 end
