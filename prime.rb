@@ -9,10 +9,9 @@ def prime?(int)
     return true
   end
   range.each do |num|
-    binding.pry
-    if int % num != 0
-      return true
+    if int % num == 0
+      return false
     end
   end
-  return false
+  return true
 end
