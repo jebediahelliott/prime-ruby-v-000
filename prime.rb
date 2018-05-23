@@ -1,4 +1,3 @@
-require 'pry'
 def prime?(int)
   range = (2...int).to_a
 
