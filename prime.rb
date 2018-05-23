@@ -8,8 +8,8 @@ def prime?(int)
     return true
   end
   x = range.all? do |num|
-    if int % num != 0
-      return true
+    if int % num == 0
+      return false
     end
   end
   binding.pry
